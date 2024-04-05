@@ -1,9 +1,12 @@
 /* App.css */
-.App {
+.app {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
 }
 
 .calculator {
@@ -17,11 +20,20 @@
 }
 
 button {
-  width: 50px;
+  width: 100px;
   height: 50px;
   font-size: 1.2rem;
+  margin: 20px;
 }
 
 .result {
   margin-top: 20px;
+}
+
+div table{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ width: 60%;
 }
